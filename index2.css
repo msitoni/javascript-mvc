@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.calc_container {
+    width: 200px;
+    border: 1px solid gray;
+}
+
+.display {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 0 12px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.btn,
+.op_total,
+.clear {
+    width: 36px;
+    height: 36px;
+    margin: 6px;
+}
+
+.controls {
+    width: 100%;
+    overflow: hidden;
+}
+
+.numbers {
+    display: flex;
+    width: 75%;
+    float: left;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.btn[data-val='0'] {
+    width: 84px;
+}
+
+.operations {
+    width: 25%;
+    float: left;
+}
